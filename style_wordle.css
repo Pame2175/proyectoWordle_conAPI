@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+}
+
+h1 {
+    color: #4285f4;
+    font-family: 'Product Sans', 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#msg {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+.grid-item {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 5px;
+    display: inline-block; /* Cambio a inline-block para que estén uno al lado del otro */
+}
+
+.green {
+    background-color: #34a853;
+    color: white;
+}
+
+.yellow {
+    background-color: #fbbc05;
+    color: #333;
+}
+
+.gray {
+    background-color: #ccc;
+    color: #333;
+}
+
+#historial {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#historial div {
+    margin: 0 5px;
+    font-size: 14px;
+}
